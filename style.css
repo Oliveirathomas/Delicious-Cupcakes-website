@@ -76,6 +76,34 @@ button{
     }
     section#Favorite{
         background-color: #f9f9ff;
-           
     }
+    img#baguette{
+        width: 40%;
+        margin-left: 50px;
+    }
+    img#cheesecake{
+        width: 35%;
+        margin-left:  50px;
+    }
+    img#cinnamon{
+        width: 35%;
+        margin-left: 50px;
+    }
+    img#cappuccino{
+        width: 35%;
+        margin-left: 50px;
+    }
+    img#egg{
+        width: 35%;
+        margin-left: 50px;
+    }
+    img#coconut{
+        width: 35%;
+        margin-left: 50px;
+    }
+    img#bowl{
+        width: 35%;
+        margin-left: 50px;
+    }
+    
     
