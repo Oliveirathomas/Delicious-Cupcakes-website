@@ -7,16 +7,17 @@
     <title>Delicious Cupcakes</title>
    <link rel="Stylesheet" href="style.css">
 </head>
+<header>
+    <div id="texto">
+     <h1>Delicious Cupcakes</h1>
+     <p>Inappropirate behaviour is often laughed off as "boys will be boys,"<br>
+     women face higher conduct standards especially in the workplace.<br>
+     That's why it's crucial that, as women</p>
+     <button>Check Our Menu</button>
+ </div>
+ <img id = "Cupcake" src="/img/banner/home-banner.png" alt="Cupcake" >
+</header>
 <body>
-       <div id="texto">
-        <h1>Delicious Cupcakes</h1>
-        <p>Inappropirate behaviour is often laughed off as "boys will be boys,"<br>
-        women face higher conduct standards especially in the workplace.<br>
-        That's why it's crucial that, as women</p>
-        <button>Check Our Menu</button>
-    </div>
-    <img id = "Cupcake" src="/img/banner/home-banner.png" alt="Cupcake" >
-    
 <h2>Our Top Rated Dishes</h2>
 <section id = "Sandwich">
 <img class ="menu" src="/img/sandwich.png" alt="sandwich">
@@ -36,29 +37,29 @@
     <p id = "description">Bread/Potato/Cheese</p>
     <p id = "price">$5.59</p>
 </section>
-<section id ="Favorite">
-    <h2>Our Favorite Menu</h2>
-    <section class =  "Left">
+<div id ="Favorite">
+    <h2 id = "title" >Our Favorite Menu</h2>
+    <section id =  "Left">
         <td>
-            <ul>Wonton with french fries .............................    $ 5.00</ul>
-            <ul>Roasted Red Potatoes with Rosemary ...................... $5.00</ul>
-            <ul>Bacon-Wrapped Shrimp with Garlic   ............................ $5.00</ul>
+            <ul>Wonton with french fries ........................................................ $5.00</ul>
+            <ul>Roasted Red Potatoes with Rosemary .................................... $5.00</ul>
+            <ul>Bacon-Wrapped Shrimp with Garlic   ...................................... $5.00</ul>
             <ul>Apple Smoked Chicken with White Sauce   ............................ $5.00</ul>
-            <ul>Imported Oysters Grill (5 Pieces)  ............................ $5.00</ul>
+            <ul>Imported Oysters Grill (5 Pieces)  .......................................... $5.00</ul>
             <ul>Apple Smoked Chicken with White Sauce   ............................ $5.00</ul>
         </td>
     </section>
-    <section class =  "Right">
+    <section id =  "Right">
         <td>
-            <ul>Wonton with french fries .............................    $ 5.00</ul>
-            <ul>Roasted Red Potatoes with Rosemary ...................... $5.00</ul>
-            <ul>Bacon-Wrapped Shrimp with Garlic   ............................ $5.00</ul>
+            <ul>Wonton with french fries ........................................................ $5.00</ul>
+            <ul>Roasted Red Potatoes with Rosemary .................................... $5.00</ul>
+            <ul>Bacon-Wrapped Shrimp with Garlic   ...................................... $5.00</ul>
             <ul>Apple Smoked Chicken with White Sauce   ............................ $5.00</ul>
-            <ul>Imported Oysters Grill (5 Pieces)  ............................ $5.00</ul>
+            <ul>Imported Oysters Grill (5 Pieces)  .......................................... $5.00</ul>
             <ul>Apple Smoked Chicken with White Sauce   ............................ $5.00</ul>
     </td>
     </section>
-</section>
+</div>
 <div id = "Foodbar">
     <h2>Foodbar Galleries</h2>
     <div id = "grid">
@@ -70,5 +71,30 @@
         <img id = "coconut" src="/img/coconut.jpg" alt="coconut">
         <img id = "bowl" src="/img/bowl.jpg" alt="bowl">
 </div>
+<h2>Make Reservation</h2>
+<div id = "Reservation">
+    <form id = "Reservation" action="registo.php" method="get" autocomplete="on">
+    <p>
+        <input type="name" name="Enter your name" placeholder = "Enter your name" autocomplete="name" required>
+    </p><p>
+        <input type="email" name="Enter your email" placeholder = "Enter your email" autocomplete="email" required>
+    </p>
+    <p>
+        <input type="phone" name="Enter your phone number" placeholder = "Enter your phone number" autocomplete="mobile" required>
+    </p>
+    <p>
+        <input type="date
+        time" name="Enter date and time" placeholder = "Select date and time" autocomplete="bday" required>
+    </p>
+    <button>Make Reservation</button>
+</div>
+
+
+</form>
 </body>
+<footer>
+    <div id = bottom>
+       
+    </div>
+</footer>
 </html>
